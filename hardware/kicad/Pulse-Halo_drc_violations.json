@@ -1,0 +1,66 @@
+{
+  "board": "C:\\Users\\ravip\\Documents\\Codex\\2026-10-27\\okw\\work\\Pulse-Halo\\hardware\\kicad\\Pulse-Halo.kicad_pcb",
+  "timestamp": "2026-10-27T22:50:46",
+  "total_violations": 5,
+  "violation_counts": {
+    "silk_edge_clearance": 1,
+    "lib_footprint_mismatch": 4
+  },
+  "severity_counts": {
+    "error": 0,
+    "warning": 5,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 104.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 154.0,
+        "y": 54.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 154.0,
+        "y": 104.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 104.0,
+        "y": 104.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 104.0,
+        "y": 54.0,
+        "unit": "mm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PulseHalo")(type "KiCad")(uri "C:/Users/ravip/Documents/Codex/2026-10-27/okw/work/Pulse-Halo/hardware/kicad/PulseHalo.pretty")(options "")(descr "Pulse Halo project footprints"))
+)

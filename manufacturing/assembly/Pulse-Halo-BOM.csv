@@ -1,0 +1,12 @@
+value,footprint,quantity,references
+XIAO RP2040,PulseHalo:XIAO_RP2040_THT,1,['U1']
+1.28in GC9A01 Round TFT,Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical,1,['J1']
+10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,3,"['R2', 'R4', 'R3']"
+EC11 Encoder + Push,Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,['SW1']
+MountingHole_3.2mm,MountingHole:MountingHole_3.2mm_M3,4,"['MH2', 'MH4', 'MH3', 'MH1']"
+100uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,['C8']
+74AHCT1G125,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,1,['U2']
+330R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,['R1']
+100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,7,"['C7', 'C6', 'C2', 'C1', 'C4', 'C3', 'C5']"
+Analog Mic Preamp,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,['J2']
+WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,6,"['D1', 'D5', 'D6', 'D3', 'D4', 'D2']"

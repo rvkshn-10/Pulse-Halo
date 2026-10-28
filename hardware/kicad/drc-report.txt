@@ -1,0 +1,38 @@
+** Drc report for Pulse-Halo.kicad_pcb **
+** Created on 2026-10-27T22:50:48 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 104.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 91.6000 mm): Footprint text of D6 (1)
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(154.0000 mm, 54.0000 mm): Footprint MH2
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(154.0000 mm, 104.0000 mm): Footprint MH4
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(104.0000 mm, 104.0000 mm): Footprint MH3
+[lib_footprint_mismatch]: Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(104.0000 mm, 54.0000 mm): Footprint MH1
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.0000 mm, 51.0000 mm): Zone [GND] on F.Cu, priority 0
+    @(101.0000 mm, 51.0000 mm): Zone [GND] on F.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

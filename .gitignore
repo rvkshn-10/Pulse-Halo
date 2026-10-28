@@ -1,0 +1,14 @@
+# KiCad transient state
+*.lck
+~*
+*.kicad_prl
+*-backups/
+.mcp-backups/
+
+# Generated preview duplicated in the screenshot set
+hardware/kicad/Pulse-Halo_2d_view.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+

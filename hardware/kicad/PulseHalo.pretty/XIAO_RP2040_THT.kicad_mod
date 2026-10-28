@@ -1,0 +1,164 @@
+(footprint "XIAO_RP2040_THT"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Seeed XIAO RP2040 dual-row header footprint, USB connector at top")
+  (tags "XIAO RP2040 module 2x7")
+
+  (property "Reference" "REF**" (at 0 -10 0)
+    (layer "F.SilkS")
+    (uuid "1dade63b-fde8-47c4-a94a-303e3050e71e")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "XIAO_RP2040_THT" (at 0 10 0)
+    (layer "F.Fab")
+    (uuid "5d42a88d-1100-4be5-a600-d1f33cdb4b13")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "babca0d8-4bf6-44f1-9e75-cb71d157a892")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -10.25 -9)
+    (end 10.25 9)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "c1dbcc24-3257-4870-a6c8-e1cb81cf8657")
+  )
+
+  (fp_rect
+    (start -10 -8.75)
+    (end 10 8.75)
+    (stroke (width 0.2) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "16c5b7d1-09b9-4004-ab8d-532cf38c214e")
+  )
+
+  (fp_rect
+    (start -10 -8.75)
+    (end 10 8.75)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "091191a2-375c-4647-a7b2-1052a8e17209")
+  )
+
+  (pad "1" thru_hole rect
+    (at -7.62 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3efe0b28-3479-4a07-9cc3-8c8869b5233b")
+  )
+
+  (pad "2" thru_hole circle
+    (at -7.62 -5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "4acb09cb-aaa6-47ef-bd27-55cc23bfa0a7")
+  )
+
+  (pad "3" thru_hole circle
+    (at -7.62 -2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "20184676-c7ac-4aff-8280-1bcdc700da6d")
+  )
+
+  (pad "4" thru_hole circle
+    (at -7.62 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3304b136-f2fc-461b-aaf4-574d271103a8")
+  )
+
+  (pad "5" thru_hole circle
+    (at -7.62 2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "f22b867c-2d7a-40e1-a2e9-22b1aec1c149")
+  )
+
+  (pad "6" thru_hole circle
+    (at -7.62 5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "38abaa87-823b-4489-b0c4-cadf083b60ed")
+  )
+
+  (pad "7" thru_hole circle
+    (at -7.62 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "17f86deb-27df-4a9f-ae3e-39806f21f644")
+  )
+
+  (pad "14" thru_hole circle
+    (at 7.62 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "530ce580-922a-4009-984a-50a3a4fd2587")
+  )
+
+  (pad "13" thru_hole circle
+    (at 7.62 -5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "802472f1-2b20-4134-9bc3-bbaa5048bb16")
+  )
+
+  (pad "12" thru_hole circle
+    (at 7.62 -2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "cee41db9-e9e8-491f-9174-f816b7848443")
+  )
+
+  (pad "11" thru_hole circle
+    (at 7.62 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "64c36f85-5ddb-49d5-803c-9c2ae0873c13")
+  )
+
+  (pad "10" thru_hole circle
+    (at 7.62 2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "9e5552cc-3fa9-4111-aee9-1c2d4f5aa8ad")
+  )
+
+  (pad "9" thru_hole circle
+    (at 7.62 5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "c767ee67-0e53-4eff-824a-a11160adc2d0")
+  )
+
+  (pad "8" thru_hole circle
+    (at 7.62 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "93c26178-2bf5-47e6-9cd0-c4b0d6be0b08")
+  )
+
+)

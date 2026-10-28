@@ -1,0 +1,168 @@
+2026-10-27 22:45:21.905 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-10-27 22:45:21.908 DEBUG  [startup] user-data path : C:\Users\ravip\AppData\Roaming\freerouting  (source: default (OS standard user-data path))
+2026-10-27 22:45:21.908 DEBUG  [startup] log file       : C:\Users\ravip\Documents\Codex\2026-10-27\okw\work\Pulse-Halo\hardware\kicad\en\freerouting.log
+2026-10-27 22:45:21.969 DEBUG  Settings loaded from 'C:\Users\ravip\AppData\Roaming\freerouting\freerouting.json'.
+2026-10-27 22:45:21.970 WARN   [startup] freerouting.json contains a stale 'logging.file.location' value: 'C:\Users\ravip\AppData\Local\freerouting\logs\freerouting.log'. The actual log file is being written to 'C:\Users\ravip\Documents\Codex\2026-10-27\okw\work\Pulse-Halo\hardware\kicad\en\freerouting.log' (as resolved at startup). The stale value will be corrected in freerouting.json on next save. If you see this in Docker, the old JSON was written by an earlier version that stored the host path; the fix is to delete freerouting.json so it is regenerated with the correct path.
+2026-10-27 22:45:21.985 DEBUG  Version: 2.4.1,2026-09-03
+2026-10-27 22:45:21.986 DEBUG  Command line arguments: '--gui.enabled=false -de C:\Users\ravip\Documents\Codex\2026-10-27\okw\work\Pulse-Halo\hardware\kicad\Pulse-Halo.dsn -do C:\Users\ravip\Documents\Codex\2026-10-27\okw\work\Pulse-Halo\hardware\kicad\Pulse-Halo.ses -mp 80 -mt 4 -l en'
+2026-10-27 22:45:21.986 DEBUG  Architecture: Windows 11,amd64,10.0
+2026-10-27 22:45:21.986 DEBUG  Java: 25.0.5,Eclipse Adoptium
+2026-10-27 22:45:21.986 DEBUG  System Language: en,en_US
+2026-10-27 22:45:21.987 DEBUG  Hardware: 24 CPU cores, 254866 CPU score, 7604 MB RAM
+2026-10-27 22:45:21.988 DEBUG  UTC Time: 2026-10-28T05:45:21.970914100Z
+2026-10-27 22:45:21.988 DEBUG  GUI Language: en
+2026-10-27 22:45:21.988 DEBUG  Host: N/A
+2026-10-27 22:45:23.020 DEBUG  Loaded router settings from: C:\Users\ravip\AppData\Roaming\freerouting\freerouting.json
+2026-10-27 22:45:23.020 DEBUG  Applied CLI router setting: router.max_passes = 80
+2026-10-27 22:45:23.020 DEBUG  Applied CLI router setting: router.max_threads = 4
+2026-10-27 22:45:23.020 DEBUG  Applied CLI router setting: router.enabled = true (implicit from -de/-do batch mode)
+2026-10-27 22:45:23.021 DEBUG  No router settings found in environment variables
+2026-10-27 22:45:23.058 DEBUG  Set DEFAULT clearance (all layers): 2000 (0.05 mm) from DSN value 200.0
+2026-10-27 22:45:23.061 DEBUG  Set clearance (all layers): smd_smd = 500 (0.0125 mm), classes [2,2]
+2026-10-27 22:45:23.062 DEBUG  Set default trace width (all layers): DSN=200.0 → board=2000 (0.05 mm)
+2026-10-27 22:45:23.082 DEBUG  Loaded router settings from DSN file: Pulse-Halo.dsn (2 layers)
+2026-10-27 22:45:23.092 DEBUG  Set DEFAULT clearance (all layers): 2000 (0.05 mm) from DSN value 200.0
+2026-10-27 22:45:23.092 DEBUG  Set clearance (all layers): smd_smd = 500 (0.0125 mm), classes [2,2]
+2026-10-27 22:45:23.092 DEBUG  Set default trace width (all layers): DSN=200.0 → board=2000 (0.05 mm)
+2026-10-27 22:45:23.098 DEBUG  Loaded router settings from DSN file: Pulse-Halo.dsn (2 layers)
+2026-10-27 22:45:23.099 DEBUG  Merging settings from 5 sources:
+2026-10-27 22:45:23.100 DEBUG    - Default Settings (priority 0): base settings
+2026-10-27 22:45:23.100 DEBUG    - freerouting.json (priority 10): 1 fields changed
+2026-10-27 22:45:23.101 DEBUG    - DSN file: Pulse-Halo.dsn (priority 20): 4 fields changed
+2026-10-27 22:45:23.101 DEBUG    - Environment Variables (priority 55): 0 fields changed
+2026-10-27 22:45:23.101 DEBUG    - CLI Arguments (priority 60): 2 fields changed
+2026-10-27 22:45:23.101 DEBUG  Settings merged successfully from 5 source(s)
+2026-10-27 22:45:23.252 INFO   New version available: v2.5.0
+2026-10-27 22:45:23.338 INFO   [D70995\A3CAFD] Loading board file 'Pulse-Halo.dsn'...
+2026-10-27 22:45:23.346 DEBUG  Set DEFAULT clearance (all layers): 2000 (0.05 mm) from DSN value 200.0
+2026-10-27 22:45:23.347 DEBUG  Set clearance (all layers): smd_smd = 500 (0.0125 mm), classes [2,2]
+2026-10-27 22:45:23.347 DEBUG  Set default trace width (all layers): DSN=200.0 → board=2000 (0.05 mm)
+2026-10-27 22:45:23.376 DEBUG  applyBoardSpecificOptimizations changed parameters:
+  Layer 0: bendCost: null -> 0.0; preferredDirectionHorizontal: null -> true; undesiredDirectionTraceCost: 1.0 -> 2.0;
+  Layer 1: bendCost: null -> 0.0; preferredDirectionHorizontal: null -> false; undesiredDirectionTraceCost: 1.0 -> 2.0;
+2026-10-27 22:45:23.379 DEBUG  Applied copper-to-edge clearance override: 500.0 um (5000 board units).
+2026-10-27 22:45:23.391 DEBUG  Set DEFAULT clearance (all layers): 2000 (0.05 mm) from DSN value 200.0
+2026-10-27 22:45:23.391 DEBUG  Set clearance (all layers): smd_smd = 500 (0.0125 mm), classes [2,2]
+2026-10-27 22:45:23.391 DEBUG  Set default trace width (all layers): DSN=200.0 → board=2000 (0.05 mm)
+2026-10-27 22:45:23.398 DEBUG  Loaded router settings from DSN file: Pulse-Halo.dsn (2 layers)
+2026-10-27 22:45:23.399 DEBUG  Merging settings from 6 sources:
+2026-10-27 22:45:23.399 DEBUG    - Default Settings (priority 0): base settings
+2026-10-27 22:45:23.399 DEBUG    - freerouting.json (priority 10): 1 fields changed
+2026-10-27 22:45:23.404 DEBUG    - DSN file: Pulse-Halo.dsn (priority 20): 4 fields changed
+2026-10-27 22:45:23.405 DEBUG    - Environment Variables (priority 55): 0 fields changed
+2026-10-27 22:45:23.405 DEBUG    - CLI Arguments (priority 60): 2 fields changed
+2026-10-27 22:45:23.405 DEBUG    - API Settings (priority 70): 24 fields changed
+2026-10-27 22:45:23.405 DEBUG  Settings merged successfully from 6 source(s)
+2026-10-27 22:45:23.406 DEBUG  applyBoardSpecificOptimizations changed parameters:
+  Layer 0: undesiredDirectionTraceCost: 1.0 -> 2.0;
+  Layer 1: undesiredDirectionTraceCost: 1.0 -> 2.0;
+2026-10-27 22:45:23.407 INFO   [D70995\A3CAFD] Job 'D70995\A3CAFD' started at 2026-10-28T05:45:23.406205100Z.
+2026-10-27 22:45:23.467 DEBUG  [D70995\A3CAFD] Checking fanout pre-pass. settings.fanout.enabled=true, smdPins=51
+2026-10-27 22:45:23.518 INFO   [D70995\A3CAFD] Fanout stage started on board 'c958731a7f3e716817f7759a6ce41658' with 35 of 51 SMD pins needing fanout (16 already connected, 0 netless).
+2026-10-27 22:45:24.277 INFO   [D70995\A3CAFD] Fanout pass #1 on board 'de2febd2abbe5f7879d1f47dab1565ea' completed in 0.69 seconds with 35 SMD pins fanouted, 0 not routed, 0 insert errors, +25 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-27 22:45:24.436 INFO   [D70995\A3CAFD] Fanout pass #2 on board 'de2febd2abbe5f7879d1f47dab1565ea' completed in 0.15 seconds with 0 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-27 22:45:24.494 INFO   [D70995\A3CAFD] Fanout stage completed: started with 51 total SMD pins, completed in 0.92 seconds, escaped pins: 50/51 (98.0%), using 0.97 total CPU seconds, 2.98 GB total allocated, and 287.9 MB peak heap usage.
+2026-10-27 22:45:24.511 INFO   [D70995\A3CAFD] Auto-routing stage started on board 'de2febd2abbe5f7879d1f47dab1565ea' for 31 unrouted items.
+2026-10-27 22:45:24.648 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_1' (connected: 3/8)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_2' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 10/39)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_3' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_4' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 3/39)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_2' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_3' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 5/39)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_5' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 3/39)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_4' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_5' (connected: 3/6)
+2026-10-27 22:45:24.651 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 5/39)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'LED_CHAIN_1' (connected: 5/8)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 3/39)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 3/39)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 5/39)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'MIC_OUT' (connected: 1/2)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net '+3V3' (connected: 1/12)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'LED_BUF_IN' (connected: 4/7)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 1/39)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'ENC_SW' (connected: 5/6)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'ENC_B' (connected: 1/5)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'ENC_A' (connected: 1/5)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'LED_BUF_IN' (connected: 3/7)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'LED_DATA_RAW' (connected: 3/4)
+2026-10-27 22:45:24.652 DEBUG  Queuing item for routing: Pin on net 'ENC_B' (connected: 3/5)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net '+3V3' (connected: 8/12)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'ENC_A' (connected: 3/5)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net '+3V3' (connected: 1/12)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_RST' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_DC' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_CS' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_SCK' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_MOSI' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net '+3V3' (connected: 1/12)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 1/39)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net '+3V3' (connected: 1/12)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_MOSI' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_SCK' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'LED_DATA_RAW' (connected: 1/4)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'ENC_SW' (connected: 1/6)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'ENC_B' (connected: 1/5)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'ENC_A' (connected: 1/5)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_DC' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_CS' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'TFT_RST' (connected: 1/2)
+2026-10-27 22:45:24.653 DEBUG  Queuing item for routing: Pin on net 'MIC_OUT' (connected: 1/2)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD] Pass #1: 31 incompletes across 49 items to route
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'MIC_OUT' has 1 incomplete(s)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'TFT_RST' has 1 incomplete(s)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'TFT_CS' has 1 incomplete(s)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'TFT_DC' has 1 incomplete(s)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'ENC_A' has 2 incomplete(s)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'ENC_B' has 2 incomplete(s)
+2026-10-27 22:45:24.693 DEBUG  [D70995\A3CAFD]   Net 'ENC_SW' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_DATA_RAW' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'TFT_SCK' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'TFT_MOSI' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net '+3V3' has 4 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net '+5V' has 9 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_BUF_IN' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_CHAIN_1' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_CHAIN_5' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_CHAIN_4' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_CHAIN_3' has 1 incomplete(s)
+2026-10-27 22:45:24.694 DEBUG  [D70995\A3CAFD]   Net 'LED_CHAIN_2' has 1 incomplete(s)
+2026-10-27 22:45:26.123 INFO   [D70995\A3CAFD] Auto-routing pass #1 on board 'de2febd2abbe5f7879d1f47dab1565ea' was completed in 1.48 seconds with score 968.24 (2 unrouted and 0 violations), using 1.92 CPU seconds and the job allocated 7.03 GB of memory so far.
+2026-10-27 22:45:26.222 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 24/43)
+2026-10-27 22:45:26.222 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 14/43)
+2026-10-27 22:45:26.222 DEBUG  Queuing item for routing: Pin on net '+5V' (connected: 5/43)
+2026-10-27 22:45:26.262 DEBUG  [D70995\A3CAFD] Pass #2: 2 incompletes across 3 items to route
+2026-10-27 22:45:26.262 DEBUG  [D70995\A3CAFD]   Net '+5V' has 2 incomplete(s)
+2026-10-27 22:45:26.579 INFO   [D70995\A3CAFD] Auto-routing pass #2 on board 'a575f9abd874ee214d6e0c744d30cdbe' was completed in 0.36 seconds with score 984.12 (1 unrouted and 0 violations), using 2.88 CPU seconds and the job allocated 12.06 GB of memory so far.
+2026-10-27 22:45:26.677 DEBUG  Queuing item for routing: Pin on net 'ENC_A' (connected: 4/7)
+2026-10-27 22:45:26.678 DEBUG  Queuing item for routing: Pin on net 'ENC_A' (connected: 3/7)
+2026-10-27 22:45:26.719 DEBUG  [D70995\A3CAFD] Pass #3: 1 incompletes across 2 items to route
+2026-10-27 22:45:26.719 DEBUG  [D70995\A3CAFD]   Net 'ENC_A' has 1 incomplete(s)
+2026-10-27 22:45:26.877 INFO   [D70995\A3CAFD] Auto-routing pass #3 on board '1cfe5c9ea55749d5a20fd79357a60b2c' was completed in 0.20 seconds with score 999.99 (0 unrouted and 0 violations), using 2.88 CPU seconds and the job allocated 12.06 GB of memory so far.
+2026-10-27 22:45:27.025 INFO   [D70995\A3CAFD] Auto-routing pass #4 on board '6bb3d4355e3bfa345729ed2840f36941' was completed in 0.05 seconds with score 999.99 (0 unrouted and 0 violations), using 2.88 CPU seconds and the job allocated 12.06 GB of memory so far.
+2026-10-27 22:45:27.080 DEBUG  === Performance Profile ===
+2026-10-27 22:45:27.081 DEBUG  === Routing Parameters ===
+2026-10-27 22:45:27.081 DEBUG    Via Costs: 50, Plane Via Costs: 5
+2026-10-27 22:45:27.081 DEBUG    Layer Costs (Preferred / Against):
+2026-10-27 22:45:27.081 DEBUG      Layer 1: 1.0 / 2.0
+2026-10-27 22:45:27.081 DEBUG      Layer 2: 1.0 / 2.0
+2026-10-27 22:45:27.081 DEBUG  
+2026-10-27 22:45:27.082 DEBUG    autoroute_item                          :      978 ms total,       54 calls,     18 ms avg
+2026-10-27 22:45:27.082 DEBUG  
+2026-10-27 22:45:27.082 DEBUG  === Pass History ===
+2026-10-27 22:45:27.082 DEBUG    Pass 1  :    2 unrouted items,     1.43 s,   100 ripup cost
+2026-10-27 22:45:27.082 DEBUG    Pass 2  :    1 unrouted items,     0.32 s,   200 ripup cost
+2026-10-27 22:45:27.082 DEBUG    Pass 3  :    0 unrouted items,     0.16 s,   300 ripup cost
+2026-10-27 22:45:27.082 DEBUG  ===========================
+2026-10-27 22:45:27.127 INFO   [D70995\A3CAFD] Auto-routing stage completed: started with 41 unrouted nets, completed in 3.63 seconds, final score: 999.99 (0 unrouted and 0 violations), using 2.88 total CPU seconds, 12.06 GB total allocated, and 261.5 MB peak heap usage.
+2026-10-27 22:45:27.129 DEBUG  [D70995\A3CAFD] Before optimization: Via count: 15, trace length: 8665778
+2026-10-27 22:45:27.173 INFO   [D70995\A3CAFD] Optimization stage started on board 'ee0da50d0c9dc5257e283ad911550e17' with score 999.99 (0 unrouted and 0 violations).
+2026-10-27 22:45:27.217 INFO   [D70995\A3CAFD] Stopping optimizer because the current board score (999.99) is already close to the maximum score (1000). Remaining potential improvement is less than the threshold (1.00%).
+2026-10-27 22:45:27.262 INFO   [D70995\A3CAFD] Optimization stage completed: started with score 999.99 (0 unrouted and 0 violations), completed in 0.05 seconds, final score: 999.99 (0 unrouted and 0 violations), using 0.05 total CPU seconds, 0.31 GB total allocated, and 492.4 MB peak heap usage.
+2026-10-27 22:45:27.267 INFO   [D70995\A3CAFD] Job 'D70995\A3CAFD' finished with state: COMPLETED (elapsed: 3.86 seconds, finished at UTC: 2026-10-28T05:45:27.266277600Z).
+2026-10-27 22:45:27.607 INFO   Saving output file 'C:\Users\ravip\Documents\Codex\2026-10-27\okw\work\Pulse-Halo\hardware\kicad\Pulse-Halo.ses' (SES)...
+2026-10-27 22:45:27.610 INFO   Successfully saved output file 'C:\Users\ravip\Documents\Codex\2026-10-27\okw\work\Pulse-Halo\hardware\kicad\Pulse-Halo.ses' (16218 bytes).
