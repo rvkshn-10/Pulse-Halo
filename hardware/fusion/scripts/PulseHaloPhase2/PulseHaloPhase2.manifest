@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Ravi Krishna Pothannagaari",
+  "description": "Builds the Pulse Halo desktop enclosure around the imported PCB and captures 11 progress images.",
+  "version": "1.0.0",
+  "runOnStartup": false,
+  "supportedOS": "windows|mac"
+}
