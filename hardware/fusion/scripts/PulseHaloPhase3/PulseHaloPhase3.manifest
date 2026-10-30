@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Ravi Krishna Pothannagaari",
+  "description": "Pulse Halo Phase 3 physical feature provisions",
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}
